@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+	background-color: yellow;
+}
+
+form {
+       border: 2px solid;
+       padding: 20px;
+       width: 900px;
+       margin: 0 auto;
+       background-color: #6699ff;
+}       

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<title>Rejestracja</title>
+	</head>
+	<body>
+		<h1>Formularz rejestracji pacjentów</h1>
+				<form action="/~inf116457/baza-danych/dodaj.cgi" target="_self" method="POST">
+					<input type="text" name="imie" placeholder="Podaj imie" minlength="1" required><br><br>
+					<input type="text" name="nazwisko" placeholder="Podaj nazwisko" minlength="1" required><br><br>
+					<input type="text" name="pesel" placeholder="Podaj pesel" minlength="1" required><br><br>
+					<input type="submit" value="Zarejestruj pacjenta">
+				</form>
+				<form action="/~inf116457/baza-danych/lista.cgi" target="_self" method="POST">
+				<input type="submit" value="Pokaż wyniki">
+				</form>
+	</body>
+</html>
+
